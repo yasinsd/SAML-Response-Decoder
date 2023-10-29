@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="forge.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAML Decoder</title>
+    <style>
+        /* I want to add a CSS style, but don't have time for that, the thing works, that's enough */
+    </style>
+</head>
+<body>
+    <textarea id="saml-response" placeholder="Paste your SAML response here to decode"></textarea>
+    <br>
+    <button id="decode">SAML Decode</button>
+    <button id="base64-decode">Base64 Decode</button>
+    <pre id="output"></pre>
+    <button id="copy" style="display:none;">Copy to Clipboard</button>
+    <button id="download" style="display:none;">Download Decoded XML</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
