@@ -7,14 +7,12 @@
         "default_popup": "popup.html",
         "default_icon": {
             "16": "icons/icon_16.png",
-            "48": "icons/icon_48.png",
-            "128": "icons/icon_128.png"
+            "48": "icons/icon_48.png"
         }
     },
     "permissions": ["storage", "activeTab"],
     "icons": {
         "16": "icons/icon_16.png",
-        "48": "icons/icon_48.png",
-        "128": "icons/icon_128.png"
+        "48": "icons/icon_48.png"
     }
   }
