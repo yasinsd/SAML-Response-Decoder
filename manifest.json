@@ -1,16 +1,20 @@
 {
-  "manifest_version": 3,
-  "name": "SAML Response Decoder",
-  "version": "1.0",
-  "description": "Decode and view SAML responses",
-  "action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-          "48": "icons/icon.png"
-      }
-  },
-  "permissions": ["storage", "activeTab"],
-  "icons": {
-      "48": "icons/icon.png"
+    "manifest_version": 3,
+    "name": "SAML Response Decoder",
+    "version": "1.0.0",
+    "description": "Decode and view SAML responses",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon_16.png",
+            "48": "icons/icon_48.png",
+            "128": "icons/icon_128.png"
+        }
+    },
+    "permissions": ["storage", "activeTab"],
+    "icons": {
+        "16": "icons/icon_16.png",
+        "48": "icons/icon_48.png",
+        "128": "icons/icon_128.png"
+    }
   }
-}
